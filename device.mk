@@ -73,6 +73,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     $(LOCAL_PATH)/security/ota
 
+TW_LOAD_VENDOR_MODULES := "goodix_brl_mmi.so"
+
 # Take a few libraries from sources
 TARGET_RECOVERY_DEVICE_MODULES += \
     android.hidl.allocator@1.0 \
